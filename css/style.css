@@ -154,6 +154,41 @@ section {
 
 /* home section end */
 
+/* count section start */
+.count .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 2.5rem;
+    align-items: flex-start;
+}
+
+.count .box-container .box {
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.count .box-container .box i {
+    font-size: 5rem;
+    color: var(--green);
+}
+
+.count .box-container .box .content h3 {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+}
+
+.count .box-container .box .content p {
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+/* count section end */
 
 
 
@@ -217,7 +252,7 @@ section {
         margin: 2rem;
     }
 
-    .home .row .content h3{
+    .home .row .content h3 {
         font-size: 6rem;
     }
 
