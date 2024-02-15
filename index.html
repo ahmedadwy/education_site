@@ -25,7 +25,7 @@
                 <a href="#courses">courses</a>
                 <a href="#teachers">teachers</a>
                 <a href="#reviews">reviews</a>
-                <a href="#contat">contat</a>
+                <a href="#contact">contact</a>
             </nav>
 
             <div id="menu-btn" class="fas fa-bars"></div>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="image">
-                <img src="imgs/home_img-2.svg" alt="home-img">
+                <img src="imgs/home-img.svg" alt="home-img">
             </div>
         </div>
     </section>
@@ -93,7 +93,7 @@
         <div class="row">
 
             <div class="image">
-                <img src="imgs/about_img_2.svg" alt="about-img">
+                <img src="imgs/about-img.svg" alt="about-img">
             </div>
             <div class="content">
                 <h3>why choose us</h3>
@@ -143,15 +143,15 @@
                         vero voluptates? Ipsam accusantium delectus fugit!</p>
                 </div>
                 <div class="swiper-slide slide">
-                    <img src="imgs/course-img-4.svg" alt="course">
-                    <h3>graphic design</h3>
+                    <img src="imgs/course-img-6.svg" alt="course">
+                    <h3>data analysis</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur molestiae ipsam repellat
                         expedita non cumque labore cupiditate illo perferendis ex sequi quae voluptatum repellendus,
                         vero voluptates? Ipsam accusantium delectus fugit!</p>
                 </div>
                 <div class="swiper-slide slide">
-                    <img src="imgs/course-img-4.svg" alt="course">
-                    <h3>graphic design</h3>
+                    <img src="imgs/course-img-5.svg" alt="course">
+                    <h3>artificial intellegence</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur molestiae ipsam repellat
                         expedita non cumque labore cupiditate illo perferendis ex sequi quae voluptatum repellendus,
                         vero voluptates? Ipsam accusantium delectus fugit!</p>
@@ -335,8 +335,67 @@
     </section>
     <!-- reviews section end -->
 
+    <!-- contact section start -->
 
+    <section class="contact" id="contact">
 
+        <h1 class="heading"><span>contact</span></h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="imgs/home-img.svg" alt="contact">
+            </div>
+
+            <form action="" method="post">
+                <span>your name</span>
+                <input type="text" required placeholder="enter your full name" maxlength="50" name="name" class="box">
+                <span>your email</span>
+                <input type="email" required placeholder="enter your full email" maxlength="50" name="email" class="box">
+                <span>your number</span>
+                <input type="number" required placeholder="enter your full number" max="9999999999" min="0" name="number" class="box" onkeypress="if(this.value.lenght == 10) return false;">
+                <span>select course</span>
+                <select name="courses" class="box" required>
+                    <option value=""disabled selected>select the course --</option>
+                    <option value="web development">web development</option>
+                    <option value="mobile app">mobile app</option>
+                    <option value="digital marketing">digital marketing</option>
+                    <option value="graphic design">graphic design</option>
+                    <option value="data anylsis">data anylsis</option>
+                    <option value="artificial intellegence">artificial intellegence</option>
+                </select>
+                <span>select gender</span>
+                <div class="radio">
+                    <input type="radio" name="gender" value="male" id="male"></input>
+                    <label for="male">male</label>
+                    <input type="radio" name="gender" value="female" id="female"></input>
+                    <label for="female">female</label>
+                </div>
+                <input type="submit" value="send message" class="btn" name="send">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+    <footer class="footer">
+        <section>
+
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#"class="fa-brands fa-instagram"></a>
+                <a href="#" class="fa-brands fa-linkedin-in"></a>
+                <a href="#" class="fab fa-youtube"></a>
+            </div>
+
+            <div class="credit">&copy; copyright @2024 by <span>Ahmed Adwy</span> | all rights reversed!</div>
+
+        </section>
+    </footer>
+    <!-- footer section end -->
 
 
 
