@@ -73,6 +73,18 @@ section {
     color: var(--black);
 }
 
+.heading {
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 4rem;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.heading span {
+    color: var(--green);
+}
+
 /* general role end */
 /* header section start */
 
@@ -191,32 +203,32 @@ section {
 /* count section end */
 
 /* about section start */
-.about .row{
+.about .row {
     display: flex;
     align-items: center;
     gap: 1.5rem;
     flex-wrap: wrap;
 }
 
-.about .row .image{
+.about .row .image {
     flex: 1 1 40rem;
 }
 
-.about .row .image img{
+.about .row .image img {
     width: 100%;
 }
 
-.about .row .content{
+.about .row .content {
     text-align: center;
     flex: 1 1 40rem;
 }
 
-.about .row .content h3{
+.about .row .content h3 {
     font-size: 3rem;
     color: var(--white);
 }
 
-.about .row .content p{
+.about .row .content p {
     padding: 1rem 0;
     line-height: 2;
     font-size: 1.6rem;
@@ -224,6 +236,93 @@ section {
 }
 
 /* about section end */
+
+/* course section start */
+
+.courses .slide {
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.courses .slide img {
+    height: 25rem;
+    width: 100%;
+}
+
+.courses .slide h3 {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.courses .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+.swiper-pagination-bullet{
+    background-color: var(--white);
+}
+.swiper-pagination-bullet-active{
+    background-color: var(--green);
+}
+
+/* course section end */
+/* teachers section start */
+
+.teachers .slide{
+    position: relative;
+    overflow: hidden;
+}
+
+.teachers .slide img{
+    height: 55rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.teachers .slide h3{
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.teachers .slide .share{
+    position: absolute;
+    top: 1rem;
+    left: -10rem;
+}
+
+.teachers .slide:hover .share{
+    left: 2rem;
+}
+
+.teachers .slide .share a{
+    text-align: center;
+    display: block;
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.teachers .slide .share a:hover{
+    background-color: var(--green);
+    color: var(--white);
+}
+
+
+/* teachers section end */
 
 
 
