@@ -79,10 +79,12 @@ section {
     font-size: 4rem;
     color: var(--white);
     text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 .heading span {
     color: var(--green);
+    text-transform: uppercase;
 }
 
 /* general role end */
@@ -245,6 +247,7 @@ section {
     text-align: center;
     padding: 2rem;
     margin-bottom: 4rem;
+    user-select: none;
 }
 
 .courses .slide img {
@@ -277,6 +280,8 @@ section {
 .teachers .slide{
     position: relative;
     overflow: hidden;
+    margin-bottom: 4rem;
+    user-select: none;
 }
 
 .teachers .slide img{
@@ -324,7 +329,48 @@ section {
 
 /* teachers section end */
 
+/* reviews section start */
 
+.reviews-slider .slide{
+    border-radius: 0.5rem;
+    background-color: var(--black);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.reviews-slider .slide p{
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-white);
+}
+
+.reviews-slider .slide .user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.reviews-slider .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews-slider .slide .user h3{
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 0.7rem;
+}
+
+.reviews-slider .slide .user .stars i{
+    font-size: 1.5rem;
+    color: var(--green);
+}
+
+/* reviews section end */
 
 
 
@@ -400,6 +446,10 @@ section {
 
     .home .row .content h3 {
         font-size: 5rem;
+    }
+
+    .heading{
+        font-size: 3rem;
     }
 
 }
