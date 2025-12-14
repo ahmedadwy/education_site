@@ -3,7 +3,7 @@
 **Multi-page educational website** with structured UI and responsive layout.
 
 ## 🖼 Screenshot
-![Education Website Screenshot](https://github.com/ahmedadwy/education_site/blob/main/screenshot.png)
+![Education Website Screenshot](https://github.com/ahmedadwy/education_site/blob/main/education.jpg)
 
 ## 🔹 Features
 - Multi-page design for different educational sections
@@ -23,3 +23,4 @@
 1. Clone the repository:
 ```bash
 git clone https://github.com/ahmedadwy/education_site.git
+
